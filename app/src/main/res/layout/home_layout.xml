@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn_rr"
+            style="@style/DashboardButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#fd9f3e"
+            android:drawableTop="@drawable/btn_rr"
+            android:onClick="rrClicked"
+            android:paddingTop="@dimen/default_top_padding"
+            android:layout_marginTop="@dimen/home_icon_margin_2"
+            android:layout_marginStart="@dimen/home_icon_margin_2"
+            android:layout_marginEnd="@dimen/home_icon_margin_1"
+            android:layout_marginBottom="@dimen/home_icon_margin_1"
+            android:text="@string/rapid_read"
+            android:textSize="25sp"
+            android:layout_marginLeft="@dimen/home_icon_margin_2"
+            android:layout_marginRight="@dimen/home_icon_margin_1" />
+
+        <Button
+            android:id="@+id/btn_inv"
+            style="@style/DashboardButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#fd9f3e"
+            android:drawableTop="@drawable/btn_inv"
+            android:gravity="center_horizontal|top"
+            android:onClick="invClicked"
+            android:paddingTop="10dp"
+            android:layout_marginTop="@dimen/home_icon_margin_2"
+            android:layout_marginStart="@dimen/home_icon_margin_1"
+            android:layout_marginEnd="@dimen/home_icon_margin_2"
+            android:layout_marginBottom="@dimen/home_icon_margin_1"
+            android:text="Inventory Item"
+            android:textSize="25sp"
+            android:layout_marginLeft="@dimen/home_icon_margin_1"
+            android:layout_marginRight="@dimen/home_icon_margin_2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn_locate"
+            style="@style/DashboardButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#fd9f3e"
+            android:drawableTop="@drawable/btn_locate"
+            android:onClick="locateClicked"
+            android:paddingTop="10dp"
+            android:layout_marginTop="@dimen/home_icon_margin_1"
+            android:layout_marginStart="@dimen/home_icon_margin_2"
+            android:layout_marginEnd="@dimen/home_icon_margin_1"
+            android:layout_marginBottom="@dimen/home_icon_margin_1"
+            android:text="Locate Tag"
+            android:textSize="25sp"
+            android:layout_marginLeft="@dimen/home_icon_margin_2"
+            android:layout_marginRight="@dimen/home_icon_margin_1" />
+
+        <Button
+            android:id="@+id/btn_register"
+            style="@style/DashboardButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#fd9f3e"
+            android:drawableTop="@drawable/register"
+            android:onClick="RegisterClicked"
+            android:paddingTop="10dp"
+            android:layout_marginTop="@dimen/home_icon_margin_1"
+            android:layout_marginStart="@dimen/home_icon_margin_1"
+            android:layout_marginEnd="@dimen/home_icon_margin_2"
+            android:layout_marginBottom="@dimen/home_icon_margin_1"
+            android:text="Tag Register"
+            android:textSize="25sp"
+            android:layout_marginLeft="@dimen/home_icon_margin_1"
+            android:layout_marginRight="@dimen/home_icon_margin_2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn_expiry"
+            style="@style/DashboardButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#fd9f3e"
+            android:drawableTop="@drawable/deadline"
+            android:onClick="expiryClicked"
+            android:paddingTop="10dp"
+            android:layout_marginTop="@dimen/home_icon_margin_1"
+            android:layout_marginStart="@dimen/home_icon_margin_2"
+            android:layout_marginEnd="@dimen/home_icon_margin_1"
+            android:layout_marginBottom="@dimen/home_icon_margin_1"
+            android:text="Expired Data"
+            android:textSize="25sp"
+            android:layout_marginLeft="@dimen/home_icon_margin_2"
+            android:layout_marginRight="@dimen/home_icon_margin_1" />
+
+        <Button
+            android:id="@+id/btn_settReaderslist"
+            style="@style/DashboardButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#fd9f3e"
+            android:drawableTop="@drawable/dl_rdl"
+            android:onClick="settClicked"
+            android:paddingTop="10dp"
+            android:layout_marginTop="@dimen/home_icon_margin_1"
+            android:layout_marginStart="@dimen/home_icon_margin_1"
+            android:layout_marginEnd="@dimen/home_icon_margin_2"
+            android:layout_marginBottom="@dimen/home_icon_margin_1"
+            android:text="@string/register"
+            android:textSize="25sp"
+            android:layout_marginLeft="@dimen/home_icon_margin_1"
+            android:layout_marginRight="@dimen/home_icon_margin_2" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

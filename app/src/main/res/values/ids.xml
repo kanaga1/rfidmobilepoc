@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="realtabcontent" type="id" />
+    <item name="tvAddress" type="id" />
+    <item name="btn_connect" type="id" />
+    <item name="btn_search" type="id" />
+</resources>

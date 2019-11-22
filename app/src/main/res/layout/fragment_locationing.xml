@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/rr_base_layout_style"
+    android:orientation="vertical"
+  >
+
+    <include
+        android:id="@+id/lt_et_epc"
+        style="@style/style_medium_font"
+        layout="@layout/autocomplete_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+
+        android:paddingRight="10dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="90"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:paddingRight="10dp">
+
+        <com.example.rfidapp.RangeGraph
+            android:id="@+id/locationBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="13"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_locate"
+            style="@style/style_button_font"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:onClick="locationingButtonClicked"
+            android:text="SEARCH"
+            android:textSize="80px"
+            android:layout_weight="1"
+            android:background="#ff6a00"
+            tools:ignore="OnClick" />
+    </RelativeLayout>
+</LinearLayout>
+
+
+
+

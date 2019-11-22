@@ -1,0 +1,53 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--List item margin values -->
+    <dimen name="list_vertical_margin">8dp</dimen>
+    <dimen name="list_horizontal_margin">8dp</dimen>
+
+    <!--Font Sizes for RapidRead Fragment -->
+    <dimen name="rapid_read_title_font">40sp</dimen>
+    <dimen name="rapid_read_small_title_font">15sp</dimen>
+    <dimen name="rapid_read_unique_tag_font">220sp</dimen>
+    <dimen name="rapid_read_total_tag_font">30sp</dimen>
+    <dimen name="rapid_read_read_rate_font">22sp</dimen>
+
+    <!--Font Sizes for Inventory Fragment -->
+    <dimen name="inventory_button_text_size">30sp</dimen>
+
+    <dimen name="settings_list_text_size">16sp</dimen>
+
+    <!--Font sizes for Readers List Fragment -->
+    <dimen name="readers_list_title_font_size">25sp</dimen>
+
+    <!--Font sizes for Singulation Control Fragment -->
+    <dimen name="singulation_control_title_font_size">20sp</dimen>
+    <dimen name="singulation_control_title_font_size_small">15sp</dimen>
+    <dimen name="singulation_control_content_font_size">22sp</dimen>
+
+    <!-- Font size for inventory list font -->
+    <dimen name="inventory_list_font_size">18sp</dimen>
+
+    <!-- Font size for locationing font -->
+    <dimen name="locationing_font_size">10sp</dimen>
+
+    <!--Dimensions used throughout the app -->
+    <dimen name="inventory_data_dialog_padding">60dp</dimen>
+    <dimen name="custom_spinner_font">15sp</dimen>
+    <dimen name="small_spinner_font">12sp</dimen>
+    <dimen name="default_top_margin">10dp</dimen>
+    <dimen name="default_left_padding">10dp</dimen>
+    <dimen name="custom_date_picker_padding">20dp</dimen>
+    <dimen name="default_bottom_margin">10dp</dimen>
+    <dimen name="default_margin">10dp</dimen>
+    <dimen name="home_icon_margin_1">1dp</dimen>
+    <dimen name="home_icon_margin_2">1dp</dimen>
+    <dimen name="default_right_margin">10dp</dimen>
+    <dimen name="default_padding">10dp</dimen>
+    <dimen name="default_left_margin">10dp</dimen>
+    <dimen name="default_top_padding">10dp</dimen>
+    <dimen name="reader_list_item_padding">5dp</dimen>
+
+</resources>
